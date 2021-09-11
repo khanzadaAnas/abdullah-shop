@@ -1,0 +1,207 @@
+
+.navbar-nav{
+    margin-right: 16px;
+}  
+.practice .three-book img {
+    height: 403px;
+}
+.three-book{
+    padding: 32px 24px;
+}
+h1{
+    color: #17a2b8;
+    font-weight: bold;
+}
+.learn-something {
+    background-color: rgb(121 161 204 / 50%);}
+.everyday {
+    padding: 32px 16px;
+}
+.learn-something button{
+ 
+    border-radius: 0;
+}
+
+.heading-p{
+    margin: 30px 0px;
+}
+video{
+    height: 358px;
+}
+.hurt {
+    margin: 32px 0px;
+}
+.curabitur{
+    margin: 24px 0px;
+}
+ h5{
+    font-weight: bold;
+}
+
+.sm-row{
+         padding: 16px;
+         margin: 0;
+}  
+
+.footpath {
+    background-image: url(./images/days.jfif);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.our-campus{
+     background-image: url(./images/masjid.jfif);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.guest {
+    background-image: url(./images/online.jfif);
+    height: 110px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.treatment{
+    background-color: rgb(0 123 255 / 25%);
+}
+
+.start-learning{
+    background-color:rgb(121 161 204 / 50%); }
+   .start-learning h1
+    { text-align: center;
+      padding: 32px 0px;
+}
+.practice {
+    background-color:  #d8d8d8;
+}
+
+ 
+.start-learning .learn-course{
+    margin: 0px 32px;
+  
+}
+
+.card-row {
+    margin: 0px 72px;
+    padding-bottom: 32px;
+}
+
+.thesis {
+    background-color: #d8d8d8;
+}
+
+
+.card{
+    height: 370px;
+}
+.exhibit {
+    padding: 32px 0px;
+}
+footer{
+    background-color: #f3f5f5;
+        height: 100px;
+    border-top: 1px solid #e0e2e2;
+    padding-top: 20px;
+}
+
+.display-small button{
+    padding-top: 16px;
+    padding-bottom: 24px;
+    border-radius: 0;
+    text-align: start;
+}
+.display-small{
+ margin-bottom: 8px;
+}
+
+.thesis-exhibit {
+        text-align: center;
+    margin-bottom: 16px;
+}
+@media (max-width: 1999.98px) { 
+     .display-small{
+        display: none;
+    }
+    .mobil-navbar{
+        display: none;
+    }
+}
+
+ @media (max-width: 1199.98px) {
+     .card-row {
+         margin: 0px;
+     }
+ }
+
+@media (max-width: 991.98px) {
+    header .large-navbar{
+        display: none;
+    }
+     .mobil-navbar{
+        display: flex;
+    }
+    video {
+        height: auto;
+    }
+    .three-book{
+        padding: 0;
+    }
+    .practice .vivo-com{
+        display: none;
+    }
+    
+    .footpath{
+        background-image: url(./images/date.jfif);
+        height: 325px;
+    }
+    .shedule{
+        padding: 16px;
+    }
+     .our-campus{
+        background-image: url(./images/sm-masjid.jfif);
+        height: 401px;
+    }
+     .guest{
+        background-image: url(./images/sm-online.jfif);
+        height: 430px;
+    }
+    .learn-course{
+        display: none;
+    }
+
+    .display-small{
+        display: flex;
+    }
+    .cards{
+        padding: 0;
+    }
+    footer p {
+        margin-top:16px;
+    }
+}
+
+@media (max-width: 767.98px) { 
+  .footpath{
+      height: 240px; 
+  }
+     .our-campus{
+         height: 301px;
+     }
+     .guest{
+         height:324px ;
+     }
+ }
+
+ @media (max-width: 575.98px) { 
+      .footpath{
+      height: 160px; 
+  }
+     .our-campus{
+         height: 200px;
+     }
+     .guest{
+         height:215px ;
+     }
+ }
